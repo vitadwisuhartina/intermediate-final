@@ -6,16 +6,16 @@
 }
 
 :root {
-  --primary-color: #2563EB; 
-  --primary-text-color: #ffffff;
-  --primary-hover-color: #60A5FA; 
-  --primary-shadow-color: rgba(37, 99, 235, 0.3); 
-  --secondary-color: #60A5FA; 
+  --primary-color: #f1c40f; 
+  --primary-text-color: #000000;
+  --primary-hover-color: #f7dc6f; 
+  --primary-shadow-color: rgba(241, 196, 15, 0.3); 
+  --secondary-color: #f39c12; 
   --secondary-text-color: #ffffff;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #2563EB;
+  background: #eb9925ea;
   color: #ffffff;       
   padding: 8px;
   z-index: 100;
@@ -73,7 +73,7 @@ textarea {
   width: 100%;
   padding: 12px 10px;
   border-radius: 4px;
-  border: 1px solid #2563EB; /* ganti warna border dengan primary-color */
+  border: 1px solid #eb9925ea; /* ganti warna border dengan primary-color */
 
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
@@ -150,13 +150,13 @@ select {
 }
 
 .btn.btn-transparent {
-  border: 1px solid #2563EB; /* primary-color */
+  border: 1px solid #eb9925ea; /* primary-color */
   background-color: #ffffff;
   color: #000000 !important;
 }
 
 .btn.btn-transparent:hover {
-  background-color: #60A5FA; /* primary-hover-color */
+  background-color: #895812ea; /* primary-hover-color */
 }
 
 .btn.btn-transparent:focus-visible {
@@ -211,7 +211,7 @@ form .form-buttons {
   box-sizing: border-box;
   width: 50px;
   height: 50px;
-  border: 6px solid #2563EB; /* primary-color */
+  border: 6px solid #eb9925ea; /* primary-color */
   border-bottom-color: var(--primary-color);
   border-radius: 100%;
 
@@ -232,7 +232,7 @@ i.loader-button {
 header {
   background-color: var(--primary-color);
   color: var(--primary-text-color);
-  box-shadow: 0 4px 8px rgba(37, 99, 235, 0.3); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   padding: 1rem 0;
   position: sticky;
   top: 0;
@@ -312,8 +312,8 @@ header {
 }
 
 .logout-button {
-  background: #60A5FA; 
-  color: #1E40AF !important; 
+  background: #ff4d4d; 
+  color: #ffffff !important; 
   padding: 0.75rem 1rem;
   font-size: inherit;
   cursor: pointer;
@@ -326,9 +326,9 @@ header {
 }
 
 .logout-button:hover {
-  background-color: #2563EB;
+  background-color: #eb2525;
   color: #ffffff !important;
-  border-color: #2563EB;
+  border-color: #8f0a0a;
 }
 
 .main-content {
@@ -364,7 +364,7 @@ header {
   background-color: #ffffff;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(37, 99, 235, 0.3); /* shadow biru muda dengan opacity 0.3 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   width: 100%;
   max-width: 400px;
 }
@@ -407,15 +407,15 @@ header {
 .login-form__title-container input[type="password"] {
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid #2563EB; /* ganti warna border ke primary-color biru */
+  border: 1px solid #ffa647; 
   border-radius: 4px;
   font-size: 1rem;
 }
 
 .login-form__title-container input[type="password"]:focus {
   outline: none;
-  border-color: #60A5FA; /* warna hover biru muda */
-  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.3);
+  border-color: #ffa647; 
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
 .login-form__title-container input[type="email"]:focus,
@@ -435,7 +435,7 @@ header {
 /* Teks "Belum punya akun?" */
 .login-form__do-not-have-account {
   text-align: center;
-  color: #2563EB; /* primary-color biru */
+  color: #ff6347; 
   font-size: 0.9rem;
 }
 
@@ -464,7 +464,7 @@ header {
   background-color: #ffffff;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(37, 99, 235, 0.3); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   width: 100%;
   max-width: 400px;
 }
@@ -509,15 +509,15 @@ header {
 .register-form__title-container input[type="password"] {
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid #2563EB; /* warna biru primary */
+  border: 1px solid #ffa647; 
   border-radius: 4px;
   font-size: 1rem;
 }
 
 .register-form__title-container input[type="password"]:focus {
   outline: none;
-  border-color: #60A5FA; /* warna biru muda untuk fokus */
-  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.3);
+  border-color: #f1c40f; 
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
 .register-form__title-container input[type="text"]:focus,
@@ -605,8 +605,9 @@ header {
 
 .story-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3); /* shadow biru muda */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
 }
+
 .story-item {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -681,7 +682,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 5px 5px 10px rgba(96, 165, 250, 0.3); /* shadow biru muda */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
   z-index: 1;
 }
 
@@ -723,7 +724,7 @@ header {
   background-color: #fff;
   padding: 1.5rem;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(96, 165, 250, 0.3); /* shadow biru muda */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
 .new-form {
@@ -751,14 +752,14 @@ header {
 
 .new-form__description__container textarea {
   padding: 0.75rem;
-  border: 1px solid #2563EB; 
+  border: 1px solid #ffa647; 
   border-radius: 8px;
   font-size: 1rem;
   resize: vertical;
 }
 
 .new-form__description__container textarea::placeholder {
-  color: #2563EB; 
+  color: #ffa647; 
 }
 
 
@@ -770,7 +771,7 @@ header {
 
 #documentations-more-info {
   font-size: 1rem;
-  color: #2563EB; /* warna biru primary */
+  color: #ffa647; 
   margin-bottom: 0.5rem;
 }
 
@@ -814,7 +815,7 @@ header {
 
 .new-form__camera__container {
   padding: 20px;
-  border: 1px solid #2563EB; /* border biru */
+  border: 1px solid #ffa647; 
   border-radius: 8px;
 
   display: none;
@@ -906,7 +907,7 @@ header {
 
 .new-form__location__lat-lng input {
   padding: 0.5rem;
-  border: 1px solid #2563EB; /* border biru */
+  border: 1px solid #ffa647; 
   border-radius: 8px;
   font-size: 1rem;
   flex-grow: 1;
@@ -928,7 +929,7 @@ footer {
 }
 
 footer hr {
-  border: 1px solid #2563EB; /* border biru */
+  border: 1px solid #ffa647;
   margin: 1rem 0;
 }
 

@@ -17,9 +17,9 @@ export default class NewPage {
       <section>
         <div class="new-story__header">
           <div class="container">
-            <h1 class="new-story__header__title">Mulailah Berbagi Cerita Menarik kamu!!</h1>
+            <h1 class="new-story__header__title">Ceritakan Pengalaman Anda</h1>
             <p class="new-story__header__description">
-              Silakan lengkapi formulir di bawah untuk membuat cerita baru kamu.<br>
+              Yuk, isi form di bawah ini dan ceritakan pengalaman asyikmu!.<br>
             </p>
           </div>
         </div>
@@ -31,19 +31,19 @@ export default class NewPage {
               
             
             <div class="form-control">
-              <label for="description-input" class="new-form__description__title">Alur Cerita</label>
+              <label for="description-input" class="new-form__description__title">Dskripsikan Pengalaman Anda</label>
               <div class="new-form__description__container">
                 <textarea
                   id="description-input"
                   name="description"
-                  placeholder="Bagikan Cerita Pengalaman kamu disini!!"
+                  placeholder="Ungkapkan cerita menarik Anda secara kreatif di kolom berikut"
                 ></textarea>
               </div>
             </div>
 
             <div class="form-control">
               <label for="documentations-input" class="new-form__documentations__title">Dokumentasi</label>
-              <div id="documentations-more-info">Sertakan foto terbaik kamu</div>
+              <div id="documentations-more-info">Silahkan unggah foto sebagai bagian dari dokumentasi.</div>
               <div class="new-form__documentations__container">
                 <div class="new-form__documentations__buttons">
                   <button id="documentations-input-button" class="btn btn-outline" type="button">Ambil Gambar</button>
@@ -96,7 +96,7 @@ export default class NewPage {
 
             <div class="form-buttons">
               <span id="submit-button-container">
-                <button class="btn" type="submit">Bagikan Cerita Kamu</button>
+                <button class="btn" type="submit">Ceritakan Pengalaman Anda</button>
               </span>
               <a class="btn btn-outline" href="#/">Batal</a>
             </div>

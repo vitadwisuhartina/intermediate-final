@@ -7,7 +7,7 @@
     "description": "StoryApp adalah aplikasi berbagi cerita yang memungkinkan siapa saja untuk membagikan momen, pengalaman, dan inspirasi kepada dunia. Melalui StoryApp, pengguna dapat menjelajahi beragam kisah menarik dari orang lain, menyimpan cerita favorit ke dalam daftar khusus, serta menghapusnya kapan saja sesuai keinginan. Dengan antarmuka yang sederhana dan interaktif, StoryApp menjadi ruang terbuka untuk saling terhubung melalui cerita.",
     "display": "standalone",
     "background_color": "#FFFFFF",
-    "theme_color": "#154558",
+    "theme_color": "#f1c40f",
     "icons": [
       {
         "src": "images/logo.png",

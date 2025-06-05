@@ -9,21 +9,21 @@ export default class LoginPage {
     return `
       <section class="login-container">
         <article class="login-form-container">
-          <h1 class="login__title">Masuk akun</h1>
+          <h1 class="login__title">Silahkan Masukkan akun Anda</h1>
 
           <form id="login-form" class="login-form">
             <div class="form-control">
-              <label for="email-input" class="login-form__email-title">Email</label>
+              <label for="email-input" class="login-form__email-title">Alamat Email</label>
 
               <div class="login-form__title-container">
                 <input id="email-input" type="email" name="email" placeholder="Contoh: nama@email.com">
               </div>
             </div>
             <div class="form-control">
-              <label for="password-input" class="login-form__password-title">Password</label>
+              <label for="password-input" class="login-form__password-title">Kata Sandi</label>
 
               <div class="login-form__title-container">
-                <input id="password-input" type="password" name="password" placeholder="Masukkan password Anda">
+                <input id="password-input" type="password" name="password" placeholder="Masukkan Kata Sandi Anda">
               </div>
             </div>
             <div class="form-buttons login-form__form-buttons">
